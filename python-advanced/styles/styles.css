@@ -1,0 +1,79 @@
+/* Estilos generales del body */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bfbfd3;
+    color: rgb(15, 1, 53);
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+/* Estilo del título */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Estilo del formulario */
+form {
+    background: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px 5px;
+    width: 100%;
+    max-width: 500px; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+/* Estilo de las etiquetas */
+label {
+    font-weight: bold;
+    display: block;
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+/* Estilo del área de texto */
+textarea {
+    height: 50px;
+    resize: vertical; 
+}
+
+/* Estilo del botón */
+button {
+    background-color: #65acdb; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo del botón al pasar el cursor */
+button:hover {
+    background-color: #0516af; 
+}
+
+/* Espaciado general para el formulario */
+form > *:not(:last-child) {
+    margin-bottom: 2px; 
+}
